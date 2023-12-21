@@ -283,7 +283,7 @@ from sqlalchemy import create_engine, text
 ```
 </details>
 <details>
-<summary>MLP모델 설계(첫번째 모델: 날짜를 뺀 피쳐들로 부터 인기도 예측모델)</summary>
+<summary>MLP모델 설계</summary>
     
 ```python
 class MLP_first(nn.Module):
